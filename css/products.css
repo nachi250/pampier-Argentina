@@ -1,0 +1,94 @@
+html body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #e9e8e6;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container {
+    padding: 0%;
+}
+
+.background-color-navbar {
+    background-color: #000000;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.navbar {
+    background-image: url(../assets/products_navbar_background.JPG);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-family: serif;
+}
+
+.navbar__title {
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+}
+.navbar__title h3 {
+    font-family: lato;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.products__list {
+    align-content: center;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #e9e8e6;
+    margin: auto;
+}
+
+.card p {
+    font-family: lato;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #675f5d;
+}
+.card h5 {
+    padding-top: 10px;
+    border-top: solid 2px #a6938b;
+    font-family: serif;
+    color: #675f5d;
+    font-weight: bold;
+}
+
+.card h6 {
+    font-family: lato;
+    color: #643e31;
+}
+
+.form-select {
+    background-color: #e9e8e6;
+    border: 0px solid;
+    border-radius: 0%;
+    border-bottom: solid 2px #675f5d;
+    width: 70%;
+}
+
+.form-select:active {
+    border: none;
+}
+
+
+.btn-whatsapp {
+    font-family: lato;
+    background-color: #d9ab9e;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #675f5d;
+    width: 70%;
+    margin-left: 20%;
+}
+
