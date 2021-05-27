@@ -10,13 +10,12 @@ html body {
 }
 
 .background-color-navbar {
-    background-color: #000000;
-    opacity: 0.9;
+    background-color: #d9ab9e;
     width: 100%;
 }
 
 .navbar {
-    background-image: url(../assets/products_navbar_background.JPG);
+    background-image: url(../assets/products_navbar_background.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -36,7 +35,6 @@ html body {
 }
 .navbar__title h3 {
     font-family: lato;
-    font-weight: 400;
     color: #ffffff;
 }
 
@@ -65,8 +63,8 @@ html body {
 }
 
 .card h6 {
-    font-family: lato;
     color: #643e31;
+    font-weight: bold;
 }
 
 .form-select {

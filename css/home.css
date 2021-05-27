@@ -16,3 +16,7 @@ html body {
     font-family: serif;
 }
 
+.navbar a {
+    font-weight: bold;
+}
+
