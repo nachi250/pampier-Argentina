@@ -4,6 +4,6 @@
     {"productoId": 11002, "nombre": "A4 con Paspartu Marco madera", "img": "assets/products/cuadros/cuadros_constelacion/a4_con_paspartu_marco_madera.JPG", "precio": 100, "stock": "ok"},
     {"productoId": 11003, "nombre": "A4 Rosa Marco blanco", "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_blanco.JPG", "precio": 100, "stock": "ok"},
     {"productoId": 11004, "nombre": "A4 Rosa Marco madera", "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG", "precio": 100, "stock": "ok"},
-    {"productoId": 11005, "nombre": "A4 y A4 con Paspartu", "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG", "precio": 100, "stock": "ok"},
-    {"productoId": 11006, "nombre": "Cuadro constelacion", "img": "assets/products/cuadros/cuadros_constelacion/cuadro_constelacion.JPG", "precio": 100, "stock": "ok"}
+    {"productoId": 11005, "nombre": "A4 y A4 con Paspartu", "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG", "precio": 100, "stock": "ok"}
+    
 ]

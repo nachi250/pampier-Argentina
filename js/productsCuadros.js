@@ -50,3 +50,10 @@ $.getJSON("json/cuadros.json", (response, status) => {
     }
   }
 )
+
+
+function titleCategory() {
+  $("#titleCategory").html("Cuadros")
+}
+
+titleCategory()

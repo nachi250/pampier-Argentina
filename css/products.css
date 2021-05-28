@@ -12,6 +12,7 @@ html body {
 .background-color-navbar {
     background-color: #d9ab9e;
     width: 100%;
+    height: auto;
 }
 
 .navbar {
@@ -26,6 +27,15 @@ html body {
 .navbar-brand {
     color: #ffffff;
     font-family: serif;
+    margin-right: auto;
+    margin-left:  auto;
+}
+
+a .bi-arrow-left-square{
+    color: #e9e8e6;
+}
+a .bi-arrow-left-square:hover {
+    color: #ffffff;
 }
 
 .navbar__title {

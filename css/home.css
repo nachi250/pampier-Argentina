@@ -2,6 +2,7 @@ html body {
     margin: 0%;
     padding: 0%;
     width: 100%;
+    box-sizing: border-box;
 }
 .navbar {
     background-color: #e9e8e6;
@@ -14,9 +15,52 @@ html body {
 
 .navbar-brand {
     font-family: serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar a {
     font-weight: bold;
 }
 
+.navbar-toggler-icon {
+    width: 25px;
+}
+
+.navbar-toggler-icon:hover {
+    color: white;
+}
+
+.home__sections{
+    height: 100vh;
+}
+
+.home__sections--cuadros {
+    background-image: url("../assets/home-cuadros.JPG");
+    background-position: center; 
+    background-size: cover;
+    border: solid 0.25rem white;
+}
+
+.home__sections--deco {
+    background-image: url("../assets/home-deco.jpg");
+    background-position: center; 
+    background-size: cover; 
+    border: solid 0.25rem white;         
+}
+
+.home__sections--cases {
+    background-image: url("../assets/home-cases.jpg");
+    background-position: center; 
+    background-size: cover;
+    border: solid 0.25rem white;      
+}
+
+.home__sections a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: lato;
+    font-weight: bold;
+    color: #FFFFFF;
+}
