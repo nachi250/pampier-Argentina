@@ -1,0 +1,75 @@
+[
+    {
+        "productoId": 11001,
+        "nombre": "A3 Marco blanco",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a3_marco_blanco.JPG",
+        "precio": 100,
+        "stock": "ok"
+    },
+    {
+        "productoId": 11002,
+        "nombre": "A4 con Paspartu Marco madera",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_con_paspartu_marco_madera.JPG",
+        "precio": 100,
+        "stock": "ok"
+    },
+    {
+        "productoId": 11003,
+        "nombre": "A4 Rosa Marco blanco",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_blanco.JPG",
+        "precio": 100,
+        "stock": "ok"
+    },
+    {
+        "productoId": 11004,
+        "nombre": "A4 Rosa Marco madera",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
+        "precio": 100,
+        "stock": "ok"
+    },
+    {
+        "productoId": 11005,
+        "nombre": "A4 y A4 con Paspartu",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG",
+        "precio": 100,
+        "stock": "ok"
+    } ,
+    {
+        "productoId": 11004,
+        "nombre": "A4 Rosa Marco madera",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
+        "precio": 100,
+        "stock": "ok"
+    },
+    {
+        "productoId": 11005,
+        "nombre": "A4 y A4 con Paspartu",
+        "categoria": "cases", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG",
+        "precio": 100,
+        "stock": "ok"
+    }
+    ,
+    {
+        "productoId": 11004,
+        "nombre": "A4 Rosa Marco madera",
+        "categoria": "cases", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
+        "precio": 100,
+        "stock": "ok"
+    },
+    {
+        "productoId": 11005,
+        "nombre": "A4 y A4 con Paspartu",
+        "categoria": "cuadro", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG",
+        "precio": 100,
+        "stock": "ok"
+    }
+]

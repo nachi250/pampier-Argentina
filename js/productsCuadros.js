@@ -1,4 +1,4 @@
-$.getJSON("json/cuadros.json", (response, status) => {
+$.getJSON("assets/data/data.json", (response, status) => {
     if (status === "success") {
         misProductos = response
         for (let producto of misProductos) {
@@ -45,7 +45,7 @@ $.getJSON("json/cuadros.json", (response, status) => {
             </div>
           </div>
           `
-                        $('#contenedorProductos').append(div)      
+          $('#contenedorProductos').append(div)      
         }
     }
   }

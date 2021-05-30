@@ -39,27 +39,27 @@ html body {
     background-image: url("../assets/home-cuadros.JPG");
     background-position: center; 
     background-size: cover;
-    border: solid 0.25rem white;
+    border: solid 0.7rem white;
 }
 
 .home__sections--deco {
     background-image: url("../assets/home-deco.jpg");
     background-position: center; 
     background-size: cover; 
-    border: solid 0.25rem white;         
+    border: solid 0.7rem white;         
 }
 
 .home__sections--cases {
     background-image: url("../assets/home-cases.jpg");
     background-position: center; 
     background-size: cover;
-    border: solid 0.25rem white;      
+    border: solid 0.7rem white;      
 }
 
 .home__sections a {
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2.3em;
     font-family: lato;
     font-weight: bold;
     color: #FFFFFF;
