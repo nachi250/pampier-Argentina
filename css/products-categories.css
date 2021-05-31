@@ -14,13 +14,39 @@ html body {
     width: 100%;
 }
 
-.navbar {
+.navbar-cuadros-background {
     background-image: url(../assets/products_navbar_background.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
     background-attachment: fixed;
     justify-content: center;
+}
+
+.navbar-cases-background {
+    background-image: url(../assets/products/fundas/fundas_biodegradables/IMG_4877.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.navbar-deco-background {
+    background-image: url(../assets/products/calendarios/planners/planners-combo.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.navbar-row {
+    width: 100%;
 }
 
 .navbar-brand {

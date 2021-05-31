@@ -2,8 +2,9 @@
     {
         "productoId": 11001,
         "nombre": "A3 Marco blanco",
-        "categoria": "cuadro", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a3_marco_blanco.JPG",
+        "categoria": "cuadro",
+        "subcategoria": "constelacion", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a3_marco_blanco.jpg",
         "precio": 100,
         "stock": "ok"
     },
@@ -11,7 +12,8 @@
         "productoId": 11002,
         "nombre": "A4 con Paspartu Marco madera",
         "categoria": "cuadro", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_con_paspartu_marco_madera.JPG",
+        "subcategoria": "constelacion",
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_con_paspartu_marco_madera.jpg",
         "precio": 100,
         "stock": "ok"
     },
@@ -19,6 +21,7 @@
         "productoId": 11003,
         "nombre": "A4 Rosa Marco blanco",
         "categoria": "cuadro", 
+        "subcategoria": "constelacion",
         "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_blanco.JPG",
         "precio": 100,
         "stock": "ok"
@@ -26,7 +29,8 @@
     {
         "productoId": 11004,
         "nombre": "A4 Rosa Marco madera",
-        "categoria": "cuadro", 
+        "categoria": "cuadro",
+        "subcategoria": "constelacion", 
         "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
         "precio": 100,
         "stock": "ok"
@@ -34,42 +38,337 @@
     {
         "productoId": 11005,
         "nombre": "A4 y A4 con Paspartu",
-        "categoria": "cuadro", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG",
-        "precio": 100,
-        "stock": "ok"
-    } ,
-    {
-        "productoId": 11004,
-        "nombre": "A4 Rosa Marco madera",
-        "categoria": "cuadro", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
+        "categoria": "cuadro",
+        "subcategoria": "constelacion", 
+        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.jpg",
         "precio": 100,
         "stock": "ok"
     },
+
+
     {
-        "productoId": 11005,
-        "nombre": "A4 y A4 con Paspartu",
-        "categoria": "cases", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG",
+        "productoId": 12001,
+        "nombre": "Lámina 1",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/lamina1.jpg",
         "precio": 100,
-        "stock": "ok"
-    }
-    ,
-    {
-        "productoId": 11004,
-        "nombre": "A4 Rosa Marco madera",
-        "categoria": "cases", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
-        "precio": 100,
-        "stock": "ok"
+        "stock": "ok"   
     },
     {
-        "productoId": 11005,
-        "nombre": "A4 y A4 con Paspartu",
-        "categoria": "cuadro", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.JPG",
+        "productoId": 12002,
+        "nombre": "Lámina 2",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/lamina2.jpg",
         "precio": 100,
-        "stock": "ok"
+        "stock": "ok" 
+    },
+    {
+        "productoId": 12003,
+        "nombre": "Lámina 3",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/lamina3.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 12004,
+        "nombre": "Lámina 4",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/lamina4.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 12005,
+        "nombre": "Lámina 4 color",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/lamina4-color.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 12006,
+        "nombre": "Cuadro Figura blue",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/cuadros-figuras.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 12007,
+        "nombre": "Cuadro Figura beige",
+        "categoria": "cuadro",
+        "subcategoria": "figuras", 
+        "img": "assets/products/cuadros/cuadros_figuras/cuadros-figuras-2.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+    {
+        "productoId": 13001,
+        "nombre": "Lamina 5",
+        "categoria": "cuadro",
+        "subcategoria": "flores", 
+        "img": "assets/products/cuadros/cuadros_flores/lamina5.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 13002,
+        "nombre": "Lamina 6",
+        "categoria": "cuadro",
+        "subcategoria": "flores", 
+        "img": "assets/products/cuadros/cuadros_flores/lamina6.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 13003,
+        "nombre": "Lamina 7",
+        "categoria": "cuadro",
+        "subcategoria": "flores", 
+        "img": "assets/products/cuadros/cuadros_flores/lamina7.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 13004,
+        "nombre": "Lamina 8",
+        "categoria": "cuadro",
+        "subcategoria": "flores", 
+        "img": "assets/products/cuadros/cuadros_flores/lamina8.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 13005,
+        "nombre": "Lamina 8 Color",
+        "categoria": "cuadro",
+        "subcategoria": "flores", 
+        "img": "assets/products/cuadros/cuadros_flores/lamina8-color.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+    {
+        "productoId": 14001,
+        "nombre": "Cuadro iniciales",
+        "categoria": "cuadro",
+        "subcategoria": "iniciales", 
+        "img": "assets/products/cuadros/cuadros_iniciales/cuadros-iniciales.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+    {
+        "productoId": 15001,
+        "nombre": "Cuadro matisse",
+        "categoria": "cuadro",
+        "subcategoria": "matisse", 
+        "img": "assets/products/cuadros/cuadros_matisse/cuadro_matisse.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+    {
+        "productoId": 16001,
+        "nombre": "Instagram Pampier Artboard 16",
+        "categoria": "cuadro",
+        "subcategoria": "siluetas", 
+        "img": "assets/products/cuadros/cuadros_siluetas/Instagram_Pampier_Artboard_16.png",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 16002,
+        "nombre": "Instagram Pampier Artboard 18",
+        "categoria": "cuadro",
+        "subcategoria": "siluetas", 
+        "img": "assets/products/cuadros/cuadros_siluetas/Instagram_Pampier_Artboard_18.png",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+
+    {
+        "productoId": 21001,
+        "nombre": "Funda Biodegradable Withe",
+        "categoria": "fundas",
+        "subcategoria": "biodegradable", 
+        "img": "assets/products/fundas/fundas_biodegradables/IMG_4889.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 21002,
+        "nombre": "Funda Biodegradable Yellow",
+        "categoria": "fundas",
+        "subcategoria": "biodegradable", 
+        "img": "assets/products/fundas/fundas_biodegradables/IMG_4877.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 21003,
+        "nombre": "Funda Biodegradable Blue",
+        "categoria": "fundas",
+        "subcategoria": "biodegradable", 
+        "img": "assets/products/fundas/fundas_biodegradables/IMG_4878.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+    {
+        "productoId": 22001,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_1.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22002,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_2.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22003,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_3.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22004,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_4.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22005,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_5.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22006,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_6.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22007,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/leaves_sin_puntas_reforzadas.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 22008,
+        "nombre": "Funda Transparente",
+        "categoria": "fundas",
+        "subcategoria": "transparente", 
+        "img": "assets/products/fundas/fundas_transparentes/peonias_con_puntas_reforzadas.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    
+    
+
+    {
+        "productoId": 31001,
+        "nombre": "Ilustraciones Digitales",
+        "categoria": "ilustraciones",
+        "subcategoria": "digitales", 
+        "img": "assets/products/ilustraciones_digitales/dibujo1.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 31002,
+        "nombre": "Ilustraciones digitales",
+        "categoria": "ilustraciones",
+        "subcategoria": "digitales", 
+        "img": "assets/products/ilustraciones_digitales/dibujo2.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 31003,
+        "nombre": "Ilustraciones digitales",
+        "categoria": "ilustraciones",
+        "subcategoria": "digitales", 
+        "img": "assets/products/ilustraciones_digitales/dibujo3.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 31004,
+        "nombre": "Ilustraciones digitales",
+        "categoria": "ilustraciones",
+        "subcategoria": "digitales", 
+        "img": "assets/products/ilustraciones_digitales/retrato-clau2.JPG",
+        "precio": 100,
+        "stock": "ok" 
+    },
+
+
+
+    {
+        "productoId": 41001,
+        "nombre": "Calendarios",
+        "categoria": "planners",
+        "subcategoria": "planners", 
+        "img": "assets/products/calendarios/planners/planners-2.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 41002,
+        "nombre": "Calendarios",
+        "categoria": "planners",
+        "subcategoria": "planners", 
+        "img": "assets/products/calendarios/planners/planners-combo.jpg",
+        "precio": 100,
+        "stock": "ok" 
+    },
+    {
+        "productoId": 41003,
+        "nombre": "Calendarios",
+        "categoria": "planners",
+        "subcategoria": "planners", 
+        "img": "assets/products/calendarios/planners/planners.jpg",
+        "precio": 100,
+        "stock": "ok" 
     }
 ]

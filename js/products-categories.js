@@ -7,14 +7,17 @@ $(window).on('load', function () {
   if (hashCode == "decoracion") {
 
     pageHeader = "Decoración";
+    $(".navbar").addClass("navbar-deco-background")
     
   } else if (hashCode == "cuadros") {
 
     pageHeader = "Cuadros";
+    $(".navbar").addClass("navbar-cuadros-background")
 
   } else if (hashCode == "cases") {
 
     pageHeader = "Cases"
+    $(".navbar").addClass("navbar-cases-background")
   }
   categoryContent = getContent(hashCode);
 

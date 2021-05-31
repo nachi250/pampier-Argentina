@@ -1,11 +1,11 @@
 [
     {
-        "url": "products.html#cuadros-constelacion",
+        "url": "products.html#planners",
         "src": "assets/products/calendarios/planners/planners-combo.jpg",
         "category": "decoracion"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#digitales",
         "src": "assets/products/ilustraciones_digitales/retrato-clau2.JPG",
         "category": "decoracion"
     },
@@ -14,12 +14,12 @@
     
     
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#biodegradable",
         "src": "assets/products/fundas/fundas_biodegradables/FullSizeRender.jpg",
         "category": "cases"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#transparente",
         "src": "assets/products/fundas/fundas_transparentes/fundas-transparentes.JPG",
         "category": "cases"
     },
@@ -27,32 +27,32 @@
     
     
     {
-        "url": "products.html#cuadros-constelacion",
+        "url": "products.html#constelacion",
         "src": "assets/products/cuadros/cuadros_constelacion/cuadro_constelacion.jpg",
         "category": "cuadros"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#figuras",
         "src": "assets/products/cuadros/cuadros_figuras/cuadros-figuras.JPG",
         "category": "cuadros"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#flores",
         "src": "assets/products/cuadros/cuadros_flores/cuadro_flores.jpg",
         "category": "cuadros"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#iniciales",
         "src": "assets/products/cuadros/cuadros_iniciales/cuadros-iniciales.JPG",
         "category": "cuadros"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#matisse",
         "src": "assets/products/cuadros/cuadros_matisse/cuadro_matisse.JPG",
         "category": "cuadros"
     },
     {
-        "url": "products.html#categoria1",
+        "url": "products.html#siluetas",
         "src": "assets/products/cuadros/cuadros_siluetas/cuadros-siluetas.JPG",
         "category": "cuadros"
     }
