@@ -4,6 +4,7 @@ html body {
     width: 100%;
     box-sizing: border-box;
 }
+
 .navbar {
     background-color: #e9e8e6;
     background-repeat: no-repeat;
@@ -35,8 +36,30 @@ html body {
     color: white;
 }
 
+.form-control {
+    width: 50%;
+    min-width: 200px;
+    background-color: #e9e8e6;
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px #675f5d;
+}
+
+.form-control:active {
+    border: none;
+}
+
+.btn-search {
+    font-family: lato;
+    background-color: #e9e8e6;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #675f5d;
+    width: auto;
+}
+
 .home__sections{
-    height: 100vh;
+    height: 90vh;
 }
 
 .home__sections--cuadros {
@@ -66,5 +89,62 @@ html body {
     font-size: 2.3em;
     font-family: lato;
     font-weight: bold;
+    color: #e9e8e6;
+}
+.home__sections a:hover {
     color: #FFFFFF;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #eddfda;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 2%;
+}
+
+.footer__row--col  {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__row__col--info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__row__col--info-container p {
+    font-size: 0.7em;
+    color: #444444;
+}
+.footer__row__col__text-container--follow {
+    font-size: 0.9em;
+    color: #444444;
+    font-weight: bold;
+}
+.footer__row__col__text-container--insta {
+    font-size: 0.7em;
+    color: #444444;
+}
+.footer__row__col__text-container--insta a {
+    font-size: 0.7em;
+    color: #444444;
+    text-decoration: none;
+}
+
+.footer__row__col--brand-link {
+    font-family: serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #444444;
+}
+
+.footer__row__col--brand-link:hover {
+    color: #444444;
+}
+
+.footer__row__col--text-container {
+    flex-wrap: wrap;
+}
+

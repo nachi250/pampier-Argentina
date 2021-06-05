@@ -51,9 +51,15 @@ html body {
     width: 100%;
 }
 
-.navbar-brand {
+.nav-brand {
     color: #ffffff;
     font-family: serif;
+    text-decoration: none;
+}
+.nav-brand h4:hover {
+    color: #ffffff;
+    font-family: serif;
+    text-decoration: none;
 }
 
 a .bi-arrow-left-square{
