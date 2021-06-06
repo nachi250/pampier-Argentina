@@ -1,10 +1,18 @@
 $(window).on('load', function () {
 
+  let subCategorias = ["constelacion","figuras","flores",
+                       "iniciales","matisse","siluetas","biodegradable",
+                       "transparente","digitales","planners"];
+
   let hashCode = location.hash.split("#")[1];
   let pageHeader = toTitleCase(hashCode);
 
   function titleCategory() {
-    $("#titleCategory").html(pageHeader);
+    if(subCategorias.includes(pageHeader.toLowerCase())){
+      $("#titleCategory").html(pageHeader);
+    } else {
+      $("#titleCategory").html("Resultado de busqueda: " + hashCode);
+    }
   };
 
 
@@ -20,48 +28,48 @@ $(window).on('load', function () {
     $.getJSON("assets/data/data.json", (response, status) => {
       if (status === "success") {
         misProductos = response
+
         for (let producto of misProductos) {
-          if (producto.subcategoria == filter) {
+
+          if(subCategorias.includes(filter)){
+            filtroProducto = producto.subcategoria == filter;
+          } else {
+            filtroProducto = producto.nombre.includes(toTitleCase(filter));
+            console.log(filtroProducto)
+          }
+
+          if (filtroProducto) {
             
             let divTemplate = ""
-            
-            if (producto.categoria == "cuadro") {
-              
-              divTemplate = divTemplateCuadros
-              $(".navbar").addClass("navbar-cuadros-background")
-            
-            }else { 
-              
-              if (producto.subcategoria == "transparente") {
-              
-                divTemplate = divTemplateCaseRig
-              $(".navbar").addClass("navbar-cases-background")
-              
-            }else {
+
+            switch (producto.categoria) {
+
+              case "cuadro":
+                divTemplate = divTemplateCuadros;
+                $(".navbar").addClass("navbar-cuadros-background");
+                break;
+
+              case "fundas":
+
+                if(producto.subcategoria == "transparente"){
+                  divTemplate = divTemplateCaseRig;
+                } else {
+                  divTemplate = divTemplateCaseBio;
+                }
                 
-              if (producto.categoria == "ilustraciones") {
-                  
-                divTemplate = divTemplateDeco
-                $(".navbar").addClass("navbar-deco-background")
-            }else { 
-                      
-              if (producto.categoria == "planners") {
-                    
-                divTemplate = divTemplateDeco
-                $(".navbar").addClass("navbar-deco-background")
-                      
-            }else { 
-                
-              if (producto.subcategoria == "biodegradable") {
-                      
-                divTemplate = divTemplateCaseBio
-                $(".navbar").addClass("navbar-cases-background")
-                      
-              }     
-            } 
-          } 
-        }        
-      }
+                $(".navbar").addClass("navbar-cases-background");
+                break;
+
+              case "ilustraciones":
+                divTemplate = divTemplateDeco;
+                $(".navbar").addClass("navbar-deco-background");
+                break;
+
+              case "planners":
+                divTemplate = divTemplateDeco;
+                $(".navbar").addClass("navbar-deco-background");
+                break;
+            }
             
           let div = `
               <div class="row products__list--item align-items-center mb-3">
@@ -97,6 +105,9 @@ $(window).on('load', function () {
   $('#goBackBtn').click(function(){ window.history.back();; return false; });
 });
 
+function filterByName(){
+
+}
 
 
 let divTemplateCuadros = `

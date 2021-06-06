@@ -85,3 +85,28 @@ html body {
     max-width: 300px;
     margin: 5px;
 }
+
+
+/*Search Bar */
+.form-control {
+    width: 50%;
+    min-width: 200px;
+    background-color: #e9e8e6;
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px #675f5d;
+}
+
+.form-control:active {
+    border: none;
+}
+
+.btn-search {
+    font-family: lato;
+    background-color: #e9e8e6;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #675f5d;
+    width: auto;
+}
+
