@@ -3,8 +3,20 @@ html body {
     padding: 0%;
     background-color: #e9e8e6;
     width: 100%;
+    min-height: 100%;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: Lato;
+    src: url(../assets/data/fonts/lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Marion-Regular;
+    src: url(../assets/data/fonts/marion-regular/Marion-Regular.ttf);
+}
+
 .container {
     padding: 0%;
 }
@@ -15,7 +27,10 @@ html body {
 }
 
 .navbar-cuadros-background {
-    background-image: url(../assets/products_navbar_background.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url(../assets/backgorund-img/products_navbar_background.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -24,7 +39,10 @@ html body {
 }
 
 .navbar-cases-background {
-    background-image: url(../assets/products/fundas/fundas_biodegradables/IMG_4877.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url(../assets/products/fundas/fundas-biodegradables/funda-biodegradable-3.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -33,7 +51,10 @@ html body {
 }
 
 .navbar-deco-background {
-    background-image: url(../assets/products/calendarios/planners/planners-combo.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url(../assets/backgorund-img/home-deco.jpg);
     background-repeat: no-repeat;
     background-position-y: center; 
     background-size: cover;
@@ -51,7 +72,7 @@ html body {
 
 .navbar-brand {
     color: #ffffff;
-    font-family: serif;
+    font-family: Marion-Regular;
     margin-right: auto;
     margin-left:  auto;
 }
@@ -66,11 +87,43 @@ html body {
 }
 
 .navbar__title h3 {
-    font-family: lato;
+    font-family: Lato;
+    font-weight: bold;
     color: #151616;
 }
 
+.text-black {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 70%;
+    min-width: 25px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px #675f5d;
+}
+
+.form-control:focus{
+    background-color: rgb(255, 255, 255, 0.5);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px #675f5d;
+}
+
+@media (max-width: 600px) {
+    .form-control {
+        display: none;
+    }
+    .btn-search {
+        display: none;
+    }
+  }
+
 .products__categories {
+    min-height: 400px;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -80,33 +133,10 @@ html body {
     box-sizing: border-box;
 }
 
+
+
 .products__categories__row {
     max-height: 300px;
     max-width: 300px;
     margin: 5px;
 }
-
-
-/*Search Bar */
-.form-control {
-    width: 50%;
-    min-width: 200px;
-    background-color: #e9e8e6;
-    border: none;
-    border-radius: 0%;
-    border-bottom: solid 1px #675f5d;
-}
-
-.form-control:active {
-    border: none;
-}
-
-.btn-search {
-    font-family: lato;
-    background-color: #e9e8e6;
-    font-size: 0.7em;
-    font-weight: bold;
-    color: #675f5d;
-    width: auto;
-}
-

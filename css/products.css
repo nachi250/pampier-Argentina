@@ -3,8 +3,25 @@ html body {
     padding: 0%;
     background-color: #e9e8e6;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: Lato;
+    src: url(../assets/data/fonts/lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Marion-Regular;
+    src: url(../assets/data/fonts/marion-regular/Marion-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../assets/data/fonts/lato/Lato-Bold.ttf);
+}
+
 .container {
     padding: 0%;
 }
@@ -16,7 +33,10 @@ html body {
 }
 
 .navbar-cuadros-background {
-    background-image: url(../assets/products_navbar_background.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url(../assets/backgorund-img/products_navbar_background.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -25,7 +45,10 @@ html body {
 }
 
 .navbar-cases-background {
-    background-image: url(../assets/products/fundas/fundas_biodegradables/IMG_4877.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url(../assets/products/fundas/fundas-biodegradables/funda-biodegradable-3.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -34,14 +57,16 @@ html body {
 }
 
 .navbar-deco-background {
-    background-image: url(../assets/products/calendarios/planners/planners-combo.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url(../assets/products/calendarios/planners/planners-combo-cuadradas.jpg);
     background-repeat: no-repeat;
     background-position-y: center; 
     background-size: cover;
     background-attachment: fixed;
     justify-content: center;
 }
-
 
 .container-fluid {
     width: 100%;
@@ -51,14 +76,14 @@ html body {
     width: 100%;
 }
 
-.nav-brand {
+.navbar-brand {
     color: #ffffff;
-    font-family: serif;
+    font-family: Marion-Regular, serif, sans-serif;
     text-decoration: none;
 }
-.nav-brand h4:hover {
+.navbar-brand h4:hover {
     color: #ffffff;
-    font-family: serif;
+    font-family: Marion-Regular, serif, sans-serif;
     text-decoration: none;
 }
 
@@ -71,11 +96,36 @@ a .bi-arrow-left-square:hover {
     cursor: pointer;
 }
 
+.form-control {
+    width: 70%;
+    min-width: 25px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px #675f5d;
+}
+
+.form-control:focus{
+    background-color: rgb(255, 255, 255, 0.5);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px #675f5d;
+}
+
+@media (max-width: 600px) {
+    .form-control {
+        display: none;
+    }
+    .btn-search {
+        display: none;
+    }
+  }
+
 .navbar__title {
     color: #ffffff;
 }
 .navbar__title h3 {
-    font-family: lato;
+    font-family: Lato, serif, sans-serif;
     color: #ffffff;
 }
 
@@ -90,67 +140,47 @@ a .bi-arrow-left-square:hover {
 }
 
 .card p {
-    font-family: lato;
-    font-size: 0.7em;
+    font-family: Lato, serif, sans-serif;
+    font-size: 1.0em;
     font-weight: bold;
     color: #675f5d;
 }
 .card h5 {
     padding-top: 10px;
     border-top: solid 2px #a6938b;
-    font-family: serif;
+    font-family: Lato, serif, sans-serif;
     color: #675f5d;
     font-weight: bold;
 }
 
 .card h6 {
     color: #643e31;
-    font-weight: bold;
+    font-family: Lato-Bold, serif, sans-serif;
 }
 
 .form-select {
     background-color: #e9e8e6;
-    border: 0px solid;
+    border: none;
     border-radius: 0%;
     border-bottom: solid 2px #675f5d;
-    width: 70%;
+    width: 100%;
+    font-size: 0.8rem;
 }
 
-.form-select:active {
-    border: none;
+.form-select:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 2px #675f5d;
+    background-color: #eddfda;
 }
 
 .btn-whatsapp {
-    font-family: lato;
+    font-family: Lato-Bold, serif, sans-serif;
     background-color: #d9ab9e;
     font-size: 0.7em;
     font-weight: bold;
     color: #675f5d;
-    width: 70%;
-    margin-left: 20%;
-}
-
-
-/*Search Bar */
-.form-control {
-    width: 50%;
-    min-width: 200px;
-    background-color: #e9e8e6;
-    border: none;
-    border-radius: 0%;
-    border-bottom: solid 1px #675f5d;
-}
-
-.form-control:active {
-    border: none;
-}
-
-.btn-search {
-    font-family: lato;
-    background-color: #e9e8e6;
-    font-size: 0.7em;
-    font-weight: bold;
-    color: #675f5d;
-    width: auto;
+    width: 100%;
+    margin: auto;
 }
 

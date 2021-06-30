@@ -1,103 +1,103 @@
 [
     {
         "productoId": 11001,
-        "nombre": "A3 Marco blanco",
+        "nombre": "Cuadro Constelación, A3 marco blanco",
         "categoria": "cuadro",
         "subcategoria": "constelacion", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a3_marco_blanco.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-constelacion/A3-marco-blanco.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok"
     },
     {
         "productoId": 11002,
-        "nombre": "A4 con Paspartu Marco madera",
+        "nombre": "Cuadro Contelación, A4 con paspartu y marco de madera",
         "categoria": "cuadro", 
         "subcategoria": "constelacion",
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_con_paspartu_marco_madera.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-constelacion/a4-con-paspartu-marco-madera.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok"
     },
     {
         "productoId": 11003,
-        "nombre": "A4 Rosa Marco blanco",
+        "nombre": "Cuadro Constelación, A4 rosa con marco blanco",
         "categoria": "cuadro", 
         "subcategoria": "constelacion",
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_blanco.JPG",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-constelacion/a4-rosa-marco-blanco.JPG",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok"
     },
     {
         "productoId": 11004,
-        "nombre": "A4 Rosa Marco madera",
+        "nombre": "Cuadro Constelación, A4 rosa con marco de madera",
         "categoria": "cuadro",
         "subcategoria": "constelacion", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_rosa_marco_madera.JPG",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-constelacion/a4-rosa-marco-madera.JPG",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok"
     },
     {
         "productoId": 11005,
-        "nombre": "A4 y A4 con Paspartu",
+        "nombre": "Cuadro Contelación, A4 y A4 con paspartu",
         "categoria": "cuadro",
         "subcategoria": "constelacion", 
-        "img": "assets/products/cuadros/cuadros_constelacion/a4_y_a4_con_paspartu.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-constelacion/a4-y-a4-con-paspartu.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok"
     },
 
 
     {
         "productoId": 12001,
-        "nombre": "Lámina 1",
+        "nombre": "Cuadro Figura",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/lamina1.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/lamina1.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok"   
     },
     {
         "productoId": 12002,
-        "nombre": "Lámina 2",
+        "nombre": "Cuadro Figura",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/lamina2.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/lamina2.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 12003,
-        "nombre": "Lámina 3",
+        "nombre": "Cuadro Figura",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/lamina3.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/lamina3.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 12004,
-        "nombre": "Lámina 4",
+        "nombre": "Cuadro Figura",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/lamina4.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/lamina4.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 12005,
-        "nombre": "Lámina 4 color",
+        "nombre": "Cuadro Figura",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/lamina4-color.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/lamina4-color.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 12006,
-        "nombre": "Cuadro Figura blue",
+        "nombre": "Cuadro Figura",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/cuadros-figuras.JPG",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/cuadro-figura-blue.JPG",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
@@ -105,65 +105,65 @@
         "nombre": "Cuadro Figura beige",
         "categoria": "cuadro",
         "subcategoria": "figuras", 
-        "img": "assets/products/cuadros/cuadros_figuras/cuadros-figuras-2.JPG",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-figuras/lamina4.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
 
 
     {
         "productoId": 13001,
-        "nombre": "Lamina 5",
+        "nombre": "Cuadro Flores",
         "categoria": "cuadro",
         "subcategoria": "flores", 
-        "img": "assets/products/cuadros/cuadros_flores/lamina5.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-flores/lamina5.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 13002,
-        "nombre": "Lamina 6",
+        "nombre": "Cuadro Flores",
         "categoria": "cuadro",
         "subcategoria": "flores", 
-        "img": "assets/products/cuadros/cuadros_flores/lamina6.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-flores/lamina6.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 13003,
-        "nombre": "Lamina 7",
+        "nombre": "Cuadro Flores",
         "categoria": "cuadro",
         "subcategoria": "flores", 
-        "img": "assets/products/cuadros/cuadros_flores/lamina7.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-flores/lamina7.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 13004,
-        "nombre": "Lamina 8",
+        "nombre": "Cuadro Flores",
         "categoria": "cuadro",
         "subcategoria": "flores", 
-        "img": "assets/products/cuadros/cuadros_flores/lamina8.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-flores/lamina8.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 13005,
-        "nombre": "Lamina 8 Color",
+        "nombre": "Cuadro Flores",
         "categoria": "cuadro",
         "subcategoria": "flores", 
-        "img": "assets/products/cuadros/cuadros_flores/lamina8-color.jpg",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-flores/lamina8-color.jpg",
+        "precio": "Consultar por WhatsApp",
         "stock": "ok" 
     },
 
 
     {
         "productoId": 14001,
-        "nombre": "Cuadro iniciales",
+        "nombre": "Cuadro Iniciales",
         "categoria": "cuadro",
         "subcategoria": "iniciales", 
-        "img": "assets/products/cuadros/cuadros_iniciales/cuadros-iniciales.JPG",
+        "img": "assets/products/cuadros/cuadros-iniciales/cuadro-iniciales.JPG",
         "precio": 100,
         "stock": "ok" 
     },
@@ -171,31 +171,76 @@
 
     {
         "productoId": 15001,
-        "nombre": "Cuadro matisse",
+        "nombre": "Cuadro Matisse",
         "categoria": "cuadro",
         "subcategoria": "matisse", 
-        "img": "assets/products/cuadros/cuadros_matisse/cuadro_matisse.JPG",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-matisse/matisse1.jpg",
+        "precio": "Consultar precio por WhatsApp",
+        "stock": "ok" 
+    },
+    {
+        "productoId": 15001,
+        "nombre": "Cuadro Matisse",
+        "categoria": "cuadro",
+        "subcategoria": "matisse", 
+        "img": "assets/products/cuadros/cuadros-matisse/matisse2.jpg",
+        "precio": "Consultar precio por WhatsApp",
+        "stock": "ok" 
+    },
+    {
+        "productoId": 15001,
+        "nombre": "Cuadro Matisse",
+        "categoria": "cuadro",
+        "subcategoria": "matisse", 
+        "img": "assets/products/cuadros/cuadros-matisse/matisse3.jpg",
+        "precio": "Consultar precio por WhatsApp",
+        "stock": "ok" 
+    },
+    {
+        "productoId": 15001,
+        "nombre": "Cuadro Matisse",
+        "categoria": "cuadro",
+        "subcategoria": "matisse", 
+        "img": "assets/products/cuadros/cuadros-matisse/matisse4.jpg",
+        "precio": "Consultar precio por WhatsApp",
+        "stock": "ok" 
+    },
+    {
+        "productoId": 15001,
+        "nombre": "Cuadro Matisse",
+        "categoria": "cuadro",
+        "subcategoria": "matisse", 
+        "img": "assets/products/cuadros/cuadros-matisse/matisse5.jpg",
+        "precio": "Consultar precio por WhatsApp",
+        "stock": "ok" 
+    },
+    {
+        "productoId": 15001,
+        "nombre": "Cuadro Matisse",
+        "categoria": "cuadro",
+        "subcategoria": "matisse", 
+        "img": "assets/products/cuadros/cuadros-matisse/matisse6.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
 
 
     {
         "productoId": 16001,
-        "nombre": "Instagram Pampier Artboard 16",
+        "nombre": "Cuadro Silueta",
         "categoria": "cuadro",
         "subcategoria": "siluetas", 
-        "img": "assets/products/cuadros/cuadros_siluetas/Instagram_Pampier_Artboard_16.png",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-siluetas/artboard-silueta-cuerpo.png",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 16002,
-        "nombre": "Instagram Pampier Artboard 18",
+        "nombre": "Cuadro Silueta",
         "categoria": "cuadro",
         "subcategoria": "siluetas", 
-        "img": "assets/products/cuadros/cuadros_siluetas/Instagram_Pampier_Artboard_18.png",
-        "precio": 100,
+        "img": "assets/products/cuadros/cuadros-siluetas/artboard-silueta-perfil.png",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
 
@@ -203,106 +248,88 @@
 
     {
         "productoId": 21001,
-        "nombre": "Funda Biodegradable Withe",
+        "nombre": "Funda Biodegradable",
         "categoria": "fundas",
         "subcategoria": "biodegradable", 
-        "img": "assets/products/fundas/fundas_biodegradables/IMG_4889.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-biodegradables/funda-biodegradable-blue.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 21002,
-        "nombre": "Funda Biodegradable Yellow",
+        "nombre": "Funda Biodegradable",
         "categoria": "fundas",
         "subcategoria": "biodegradable", 
-        "img": "assets/products/fundas/fundas_biodegradables/IMG_4877.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-biodegradables/funda-biodegradable-yellow.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 21003,
-        "nombre": "Funda Biodegradable Blue",
+        "nombre": "Funda Biodegradable",
         "categoria": "fundas",
         "subcategoria": "biodegradable", 
-        "img": "assets/products/fundas/fundas_biodegradables/IMG_4878.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-biodegradables/funda-biodegradable-white.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
 
 
     {
         "productoId": 22001,
-        "nombre": "Funda Transparente",
+        "nombre": "Funda Transparente con Inicial",
         "categoria": "fundas",
         "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_1.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-transparentes/inicial.jpg",
+        "precio": "Consultar precio por Whatsapp",
         "stock": "ok" 
     },
     {
         "productoId": 22002,
-        "nombre": "Funda Transparente",
+        "nombre": "Funda Transparente leaves sin puntas reforzadas",
         "categoria": "fundas",
         "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_2.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-transparentes/leaves-sin-puntas-reforzadas.jpg",
+        "precio": "Consultar precio por Whatsapp",
         "stock": "ok" 
     },
     {
         "productoId": 22003,
-        "nombre": "Funda Transparente",
+        "nombre": "Funda Transparente leaves",
         "categoria": "fundas",
         "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_3.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-transparentes/leaves.jpg",
+        "precio": "Consultar precio por Whatsapp",
         "stock": "ok" 
     },
     {
         "productoId": 22004,
-        "nombre": "Funda Transparente",
+        "nombre": "Funda Transparente Margaritas",
         "categoria": "fundas",
         "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_4.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-transparentes/margaritas.jpg",
+        "precio": "Consultar precio por Whatsapp",
         "stock": "ok" 
     },
     {
         "productoId": 22005,
-        "nombre": "Funda Transparente",
+        "nombre": "Funda Transparente peonías",
         "categoria": "fundas",
         "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_5.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-transparentes/peonias.jpg",
+        "precio": "Consultar precio por Whatsapp",
         "stock": "ok" 
     },
     {
         "productoId": 22006,
-        "nombre": "Funda Transparente",
+        "nombre": "Funda Transparente con inicial",
         "categoria": "fundas",
         "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/funda_transparente_6.jpg",
-        "precio": 100,
+        "img": "assets/products/fundas/fundas-transparentes/transparente-con-inicial.jpg",
+        "precio": "Consultar precio por Whatsapp",
         "stock": "ok" 
     },
-    {
-        "productoId": 22007,
-        "nombre": "Funda Transparente",
-        "categoria": "fundas",
-        "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/leaves_sin_puntas_reforzadas.jpg",
-        "precio": 100,
-        "stock": "ok" 
-    },
-    {
-        "productoId": 22008,
-        "nombre": "Funda Transparente",
-        "categoria": "fundas",
-        "subcategoria": "transparente", 
-        "img": "assets/products/fundas/fundas_transparentes/peonias_con_puntas_reforzadas.JPG",
-        "precio": 100,
-        "stock": "ok" 
-    },
-    
+
     
 
     {
@@ -310,8 +337,8 @@
         "nombre": "Ilustraciones Digitales",
         "categoria": "ilustraciones",
         "subcategoria": "digitales", 
-        "img": "assets/products/ilustraciones_digitales/dibujo1.JPG",
-        "precio": 100,
+        "img": "assets/products/ilustraciones-digitales/dibujo-1.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
@@ -319,8 +346,8 @@
         "nombre": "Ilustraciones digitales",
         "categoria": "ilustraciones",
         "subcategoria": "digitales", 
-        "img": "assets/products/ilustraciones_digitales/dibujo2.JPG",
-        "precio": 100,
+        "img": "assets/products/ilustraciones-digitales/dibujo-2.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
@@ -328,17 +355,26 @@
         "nombre": "Ilustraciones digitales",
         "categoria": "ilustraciones",
         "subcategoria": "digitales", 
-        "img": "assets/products/ilustraciones_digitales/dibujo3.JPG",
-        "precio": 100,
+        "img": "assets/products/ilustraciones-digitales/dibujo-3.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
-        "productoId": 31004,
+        "productoId": 31003,
         "nombre": "Ilustraciones digitales",
         "categoria": "ilustraciones",
         "subcategoria": "digitales", 
-        "img": "assets/products/ilustraciones_digitales/retrato-clau2.JPG",
-        "precio": 100,
+        "img": "assets/products/ilustraciones-digitales/dibujo-4.jpg",
+        "precio": "Consultar precio por WhatsApp",
+        "stock": "ok" 
+    },
+    {
+        "productoId": 31003,
+        "nombre": "Ilustraciones digitales",
+        "categoria": "ilustraciones",
+        "subcategoria": "digitales", 
+        "img": "assets/products/ilustraciones-digitales/dibujo-5.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
 
@@ -346,29 +382,29 @@
 
     {
         "productoId": 41001,
-        "nombre": "Calendarios",
+        "nombre": "Planners Combo",
         "categoria": "planners",
         "subcategoria": "planners", 
-        "img": "assets/products/calendarios/planners/planners-2.jpg",
-        "precio": 100,
+        "img": "assets/products/calendarios/planners/planners-combo-cuadradas.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 41002,
-        "nombre": "Calendarios",
+        "nombre": "Planners semanal",
         "categoria": "planners",
         "subcategoria": "planners", 
-        "img": "assets/products/calendarios/planners/planners-combo.jpg",
-        "precio": 100,
+        "img": "assets/products/calendarios/planners/planners-cuadrado.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     },
     {
         "productoId": 41003,
-        "nombre": "Calendarios",
+        "nombre": "Planners semanal",
         "categoria": "planners",
         "subcategoria": "planners", 
-        "img": "assets/products/calendarios/planners/planners.jpg",
-        "precio": 100,
+        "img": "assets/products/calendarios/planners/planners-semanal.jpg",
+        "precio": "Consultar precio por WhatsApp",
         "stock": "ok" 
     }
 ]

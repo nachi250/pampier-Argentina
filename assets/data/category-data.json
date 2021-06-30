@@ -1,12 +1,12 @@
 [
     {
         "url": "products.html#planners",
-        "src": "assets/products/calendarios/planners/planners-combo.jpg",
+        "src": "assets/products/calendarios/planners/planners-combo-cuadradas.jpg",
         "category": "decoracion"
     },
     {
         "url": "products.html#digitales",
-        "src": "assets/products/ilustraciones_digitales/retrato-clau2.JPG",
+        "src": "assets/products/ilustraciones-digitales/dibujo-1.jpg",
         "category": "decoracion"
     },
 
@@ -15,12 +15,12 @@
     
     {
         "url": "products.html#biodegradable",
-        "src": "assets/products/fundas/fundas_biodegradables/FullSizeRender.jpg",
+        "src": "assets/products/fundas/fundas-biodegradables/funda-biodegradable-2.jpg",
         "category": "cases"
     },
     {
         "url": "products.html#transparente",
-        "src": "assets/products/fundas/fundas_transparentes/fundas-transparentes.JPG",
+        "src": "assets/products/fundas/fundas-transparentes/transparente-con-inicial.jpg",
         "category": "cases"
     },
     
@@ -28,32 +28,32 @@
     
     {
         "url": "products.html#constelacion",
-        "src": "assets/products/cuadros/cuadros_constelacion/cuadro_constelacion.jpg",
+        "src": "assets/products/cuadros/cuadros-constelacion/A3-marco-blanco.jpg",
         "category": "cuadros"
     },
     {
         "url": "products.html#figuras",
-        "src": "assets/products/cuadros/cuadros_figuras/cuadros-figuras.JPG",
+        "src": "assets/products/cuadros/cuadros-figuras/cuadro-figura.JPG",
         "category": "cuadros"
     },
     {
         "url": "products.html#flores",
-        "src": "assets/products/cuadros/cuadros_flores/cuadro_flores.jpg",
+        "src": "assets/products/cuadros/cuadros-flores/cuadro-flores.JPG",
         "category": "cuadros"
     },
     {
         "url": "products.html#iniciales",
-        "src": "assets/products/cuadros/cuadros_iniciales/cuadros-iniciales.JPG",
+        "src": "assets/products/cuadros/cuadros-iniciales/cuadro-iniciales.JPG",
         "category": "cuadros"
     },
     {
         "url": "products.html#matisse",
-        "src": "assets/products/cuadros/cuadros_matisse/cuadro_matisse.JPG",
+        "src": "assets/products/cuadros/cuadros-matisse/matisse1.jpg",
         "category": "cuadros"
     },
     {
         "url": "products.html#siluetas",
-        "src": "assets/products/cuadros/cuadros_siluetas/cuadros-siluetas.JPG",
+        "src": "assets/products/cuadros/cuadros-siluetas/silueta.JPG",
         "category": "cuadros"
     }
 ]

@@ -1,20 +1,30 @@
-/* IMAGEN DE FONDO DEL BODY, CENTRADA Y RESPONSIVE*/
 body {
-    background-image: url(../assets/index_body_backgorund.JPG);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url(../assets/backgorund-img/index_body_backgorund.JPG);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
-/*QUITO EL PADDING DE LAS COLUMNAS PARA PODER AGREGARLE LOS BORDES*/
+
+@font-face {
+    font-family: Lato-Medium;
+    src: url(../assets/data/fonts/lato/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: Marion-Regular;
+    src: url(../assets/data/fonts/marion-regular/Marion-Regular.ttf);
+}
+
 .col {
     padding: 0%;
 }
 
-/*TRANSPARENCIA PARA QUE CUBRA LA IMAGEN DE FONDO*/
-.index__main--background {
-    background-color: rgb(0, 0, 0, 0.3);
-}
 .index__main {
     height: 100vh;
 }
@@ -23,6 +33,7 @@ body {
     height: 40%;
     align-content: center;
     text-align: center;
+    font-size: 0.8em;
 }
 
 .index__main--title h1 {
@@ -31,7 +42,7 @@ body {
     padding: 30px;
     color: #FFFFFF;  
     font-size: 3.0em;
-    font-family: serif;
+    font-family: Marion-Regular, serif, sans-serif;
     font-weight: lighter;
 }
 
@@ -43,14 +54,14 @@ a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 2.0em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato-Medium, serif, sans-serif;
 }
 
 .index__main__link--aling {
     text-align: center;
 }
 
-/*BORDES DE LOS LINKS*/
+
 .index__main__link--bordertop {
     border-top: solid 2px #FFFFFF;
     padding-top: 10px;
@@ -59,11 +70,11 @@ a {
     border-bottom: solid 2px #FFFFFF;
     padding-bottom: 10px;
 }
-/*ESPACIO ENTRE LINKS*/
+
 .index__main__link--space {
     height: 5%;
 }
-/*ESPACIO RESTANTE DEL FONDO DE LA WEB*/
+
 .index__main--space {
     height: 27%;
 }

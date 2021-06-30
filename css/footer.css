@@ -1,0 +1,96 @@
+.footer {
+    background-color: #eddfda;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 2%;
+    height: auto;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../assets/data/fonts/lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Marion-Regular;
+    src: url(../assets/data/fonts/marion-regular/Marion-Regular.ttf);
+}
+
+.footer__row--col  {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__row__col--info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__row__col--info-container p {
+    font-family: Lato, serif, sans-serif;
+    font-size: 0.7em;
+    color: #444444;
+}
+
+.footer__row__col__info-container--wtp {
+    text-decoration: none;
+    color: #444444;
+}
+
+.footer__row__col__info-container--wtp:hover {
+    color: #444444;
+}
+
+.footer__row__col__text-container--follow {
+    font-size: 0.9em;
+    color: #444444;
+    font-weight: bold;
+}
+.footer__row__col__text-container--insta {
+    font-size: 0.7em;
+    color: #444444;
+}
+.footer__row__col__text-container--insta a {
+    font-size: 0.7em;
+    color: #444444;
+    text-decoration: none;
+}
+
+.footer__row__col--brand-link {
+    font-family: Marion-Regular, serif, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #444444;
+}
+
+.footer__row__col--brand-link:hover {
+    color: #444444;
+}
+
+.footer__row__col--text-container {
+    flex-wrap: wrap;
+}
+
+.footer__row__col-img-container--img {
+    height: 70px;
+    width: 70px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.footer__row__col__text-container--insta {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (min-width: 760px) {
+    .footer-mobile-display {
+        display: none;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .footer-wide-display {
+        display: none;
+    }
+  }
