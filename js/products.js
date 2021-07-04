@@ -11,7 +11,7 @@ $(window).on('load', function () {
     if(subCategorias.includes(pageHeader.toLowerCase())){
       $("#titleCategory").html(pageHeader);
     } else {
-      $("#titleCategory").html("Resultado de busqueda: " + hashCode);
+      $("#titleCategory").html("Resultado de búsqueda: " + hashCode);
     }
   };
 
@@ -35,7 +35,6 @@ $(window).on('load', function () {
             filtroProducto = producto.subcategoria == filter;
           } else {
             filtroProducto = producto.nombre.includes(toTitleCase(filter));
-            console.log(filtroProducto)
           }
 
           if (filtroProducto) {
@@ -95,6 +94,15 @@ $(window).on('load', function () {
               </div>
                       `
             $('#contenedorProductos').append(div);
+          } else {
+
+            divTemplate = divTemplateCuadros;
+                $(".navbar").addClass("navbar-cuadros-background");
+                if($('#contenedorProductos').text().trim() == ""){
+                  $("#titleCategory").html("No hay resultado para su búsqueda: " + hashCode);
+                } else {
+                  $("#titleCategory").html("Resultado de búsqueda: " + hashCode);
+                }
           }
         }
       }
@@ -104,11 +112,6 @@ $(window).on('load', function () {
 
   $('#goBackBtn').click(function(){ window.history.back();; return false; });
 });
-
-function filterByName(){
-
-}
-
 
 let divTemplateCuadros = `
 <div>
