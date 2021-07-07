@@ -95,21 +95,28 @@ $(window).on('load', function () {
           } else {
 
             divTemplate = divTemplateCuadros;
-                $(".navbar").addClass("navbar-cuadros-background");
-                if($('#contenedorProductos').text().trim() == ""){
-                  $("#titleCategory").html("No hay resultado para su búsqueda: " + hashCode);
-                } else {
-                  titleCategory()
-                }
+
+            if($('#contenedorProductos').text().trim() == "" && hashCode != "planners"){
+              $(".navbar").addClass("navbar-cuadros-background");
+              $("#titleCategory").html("No hay resultado para su búsqueda: " + hashCode);
+            } else {
+              titleCategory()
+            }
+                
+
           }
         }
       }
     }
     )
+
   }
 
   $('#goBackBtn').click(function(){ window.history.back();; return false; });
+
 });
+
+
 
 let divTemplateCuadros = `
 <div>
